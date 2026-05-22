@@ -1,0 +1,17 @@
+viniciusmaciel@MacBook-Pro-3 DotNet5-Moq-xUnit-FluentAssertions % whoami
+viniciusmaciel
+
+viniciusmaciel@MacBook-Pro-3 DotNet5-Moq-xUnit-FluentAssertions % arch -x86_64 /Users/viniciusmaciel/.dotnet/x64/dotnet test ./ConsultaCredito.Testes/ConsultaCredito.Testes.sln
+  Determining projects to restore...
+  Restored /Users/viniciusmaciel/Documents/GitHub/aplicando-testes-work/DotNet5-Moq-xUnit-FluentAssertions/ConsultaCredito/ConsultaCredito.csproj (in 316 ms).
+  Restored /Users/viniciusmaciel/Documents/GitHub/aplicando-testes-work/DotNet5-Moq-xUnit-FluentAssertions/ConsultaCredito.Testes/ConsultaCredito.Testes.csproj (in 5.14 sec).
+  ConsultaCredito -> /Users/viniciusmaciel/Documents/GitHub/aplicando-testes-work/DotNet5-Moq-xUnit-FluentAssertions/ConsultaCredito/bin/Debug/net5.0/ConsultaCredito.dll
+  ConsultaCredito.Testes -> /Users/viniciusmaciel/Documents/GitHub/aplicando-testes-work/DotNet5-Moq-xUnit-FluentAssertions/ConsultaCredito.Testes/bin/Debug/net5.0/ConsultaCredito.Testes.dll
+Test run for /Users/viniciusmaciel/Documents/GitHub/aplicando-testes-work/DotNet5-Moq-xUnit-FluentAssertions/ConsultaCredito.Testes/bin/Debug/net5.0/ConsultaCredito.Testes.dll (.NETCoreApp,Version=v5.0)
+Microsoft (R) Test Execution Command Line Tool Version 16.11.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:     4, Skipped:     0, Total:     4, Duration: 24 ms - /Users/viniciusmaciel/Documents/GitHub/aplicando-testes-work/DotNet5-Moq-xUnit-FluentAssertions/ConsultaCredito.Testes/bin/Debug/net5.0/ConsultaCredito.Testes.dll (net5.0)

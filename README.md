@@ -22,3 +22,16 @@ Cenários de exemplo:
 - Ao converter 212 °F, o resultado esperado é 100 °C.
 
 ![Execução do teste de unidade com xUnit](assets/teste-unidade-xunit.png)
+
+## Teste com Mock Objects usando Moq
+
+O teste com Mock Objects simula uma dependência externa para avaliar apenas o comportamento da classe principal. Neste exemplo, o Moq substitui o serviço de consulta de crédito, enquanto o Fluent Assertions deixa as validações mais legíveis.
+
+Fork utilizado: [viniciusmflor/DotNet5-Moq-xUnit-FluentAssertions](https://github.com/viniciusmflor/DotNet5-Moq-xUnit-FluentAssertions)
+
+Cenários de exemplo:
+
+- Ao consultar um CPF inválido, o status esperado é `ParametroEnvioInvalido`.
+- Ao consultar um CPF sem pendências, o status esperado é `SemPendencias`.
+
+![Execução do teste com Moq e Fluent Assertions](assets/teste-mock-moq.png)
