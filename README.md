@@ -1,4 +1,4 @@
-# Aplicando Testes
+# Ponderada Testes S5
 
 Este repositório documenta a execução de três exemplos de testes de software apresentados no tutorial de Renato Groffe sobre .NET 5.
 
