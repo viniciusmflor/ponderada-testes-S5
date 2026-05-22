@@ -4,6 +4,16 @@ Este repositório documenta a execução de três exemplos de testes de software
 
 Os códigos testados estão em forks próprios, e este README reúne os links, os cenários observados e os prints da execução no terminal local.
 
+Tutorial base: [Testes de Software com .NET 5: exemplos de utilização](https://renatogroffe.medium.com/testes-de-software-com-net-5-exemplos-de-utiliza%C3%A7%C3%A3o-9b5514119ba2)
+
+## Barema
+
+(De 0 a 3) - Implementação dos 3 tipos de testes apresentados no artigo (1 ponto para cada tipo de teste implementado)
+
+(De 0 a 2) - Explicação clara e objetiva sobre a aplicação dos testes
+
+(De 0 a 2) - Organização do arquivo readme, com imagens dos testes e coerência dos textos.
+
 ## Repositórios utilizados
 
 - Teste de unidade com xUnit: [viniciusmflor/DotNet5-xUnit](https://github.com/viniciusmflor/DotNet5-xUnit)
@@ -41,6 +51,8 @@ Cenários de exemplo:
 O teste BDD descreve o comportamento esperado em linguagem próxima da regra de negócio. Neste exemplo, o SpecFlow lê cenários escritos em Gherkin para validar o cálculo de juros compostos a partir de valor do empréstimo, prazo e taxa mensal.
 
 Fork utilizado: [viniciusmflor/ASPNETCore5-REST_API-xUnit-SpecFlow-Swagger-Docker_JurosCompostos](https://github.com/viniciusmflor/ASPNETCore5-REST_API-xUnit-SpecFlow-Swagger-Docker_JurosCompostos)
+
+Observação: o exemplo original continha uma simulação de falha no cálculo. No fork, foi aplicada a correção indicada no próprio código, arredondando o resultado para duas casas decimais antes da validação.
 
 Cenários de exemplo:
 
