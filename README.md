@@ -35,3 +35,16 @@ Cenários de exemplo:
 - Ao consultar um CPF sem pendências, o status esperado é `SemPendencias`.
 
 ![Execução do teste com Moq e Fluent Assertions](assets/teste-mock-moq.png)
+
+## Teste BDD com SpecFlow
+
+O teste BDD descreve o comportamento esperado em linguagem próxima da regra de negócio. Neste exemplo, o SpecFlow lê cenários escritos em Gherkin para validar o cálculo de juros compostos a partir de valor do empréstimo, prazo e taxa mensal.
+
+Fork utilizado: [viniciusmflor/ASPNETCore5-REST_API-xUnit-SpecFlow-Swagger-Docker_JurosCompostos](https://github.com/viniciusmflor/ASPNETCore5-REST_API-xUnit-SpecFlow-Swagger-Docker_JurosCompostos)
+
+Cenários de exemplo:
+
+- Empréstimo de R$ 10.000,00 por 12 meses com taxa de 2,00% ao mês deve resultar em R$ 12.682,42.
+- Empréstimo de R$ 30.000,00 por 3 meses com taxa de 3,00% ao mês deve resultar em R$ 32.781,81.
+
+![Execução do teste BDD com SpecFlow](assets/teste-bdd-specflow.png)

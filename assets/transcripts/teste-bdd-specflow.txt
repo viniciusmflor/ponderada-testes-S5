@@ -1,0 +1,21 @@
+viniciusmaciel@MacBook-Pro-3 ASPNETCore5-REST_API-xUnit-SpecFlow-Swagger-Docker_JurosCompostos % whoami
+viniciusmaciel
+
+viniciusmaciel@MacBook-Pro-3 ASPNETCore5-REST_API-xUnit-SpecFlow-Swagger-Docker_JurosCompostos % arch -x86_64 /Users/viniciusmaciel/.dotnet/x64/dotnet test ./APIFinancas.Especificacoes/APIFinancas.Especificacoes.sln
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SpecFlowFeatureFiles: CalculoJurosCompostos.feature
+-> Using specflow.json
+  SpecFlowGeneratedFiles: CalculoJurosCompostos.feature.cs
+  APIFinancas -> /Users/viniciusmaciel/Documents/GitHub/aplicando-testes-work/ASPNETCore5-REST_API-xUnit-SpecFlow-Swagger-Docker_JurosCompostos/APIFinancas/bin/Debug/net5.0/APIFinancas.dll
+  APIFinancas.Especificacoes -> /Users/viniciusmaciel/Documents/GitHub/aplicando-testes-work/ASPNETCore5-REST_API-xUnit-SpecFlow-Swagger-Docker_JurosCompostos/APIFinancas.Especificacoes/bin/Debug/net5.0/APIFinancas.Especificacoes.dll
+Test run for /Users/viniciusmaciel/Documents/GitHub/aplicando-testes-work/ASPNETCore5-REST_API-xUnit-SpecFlow-Swagger-Docker_JurosCompostos/APIFinancas.Especificacoes/bin/Debug/net5.0/APIFinancas.Especificacoes.dll (.NETCoreApp,Version=v5.0)
+Microsoft (R) Test Execution Command Line Tool Version 16.11.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+-> Loading plugin /Users/viniciusmaciel/Documents/GitHub/aplicando-testes-work/ASPNETCore5-REST_API-xUnit-SpecFlow-Swagger-Docker_JurosCompostos/APIFinancas.Especificacoes/bin/Debug/net5.0/TechTalk.SpecFlow.xUnit.SpecFlowPlugin.dll
+-> Using default config
+
+Passed!  - Failed:     0, Passed:     7, Skipped:     0, Total:     7, Duration: 35 ms - /Users/viniciusmaciel/Documents/GitHub/aplicando-testes-work/ASPNETCore5-REST_API-xUnit-SpecFlow-Swagger-Docker_JurosCompostos/APIFinancas.Especificacoes/bin/Debug/net5.0/APIFinancas.Especificacoes.dll (net5.0)
