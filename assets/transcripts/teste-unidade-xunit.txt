@@ -1,0 +1,39 @@
+viniciusmaciel@MacBook-Pro-3 DotNet5-xUnit % whoami
+viniciusmaciel
+
+viniciusmaciel@MacBook-Pro-3 DotNet5-xUnit % arch -x86_64 /Users/viniciusmaciel/.dotnet/x64/dotnet test ./Temperatura.Testes/Temperatura.Testes.sln
+
+Welcome to .NET 5.0!
+---------------------
+SDK Version: 5.0.408
+
+Telemetry
+---------
+The .NET tools collect usage data in order to help us improve your experience. It is collected by Microsoft and shared with the community. You can opt-out of telemetry by setting the DOTNET_CLI_TELEMETRY_OPTOUT environment variable to '1' or 'true' using your favorite shell.
+
+Read more about .NET CLI Tools telemetry: https://aka.ms/dotnet-cli-telemetry
+
+----------------
+Installed an ASP.NET Core HTTPS development certificate.
+To trust the certificate run 'dotnet dev-certs https --trust' (Windows and macOS only).
+Learn about HTTPS: https://aka.ms/dotnet-https
+----------------
+Write your first app: https://aka.ms/dotnet-hello-world
+Find out what's new: https://aka.ms/dotnet-whats-new
+Explore documentation: https://aka.ms/dotnet-docs
+Report issues and find source on GitHub: https://github.com/dotnet/core
+Use 'dotnet --help' to see available commands or visit: https://aka.ms/dotnet-cli
+--------------------------------------------------------------------------------------
+  Determining projects to restore...
+  Restored /Users/viniciusmaciel/Documents/GitHub/aplicando-testes-work/DotNet5-xUnit/Temperatura/Temperatura.csproj (in 526 ms).
+  Restored /Users/viniciusmaciel/Documents/GitHub/aplicando-testes-work/DotNet5-xUnit/Temperatura.Testes/Temperatura.Testes.csproj (in 2.09 sec).
+  Temperatura -> /Users/viniciusmaciel/Documents/GitHub/aplicando-testes-work/DotNet5-xUnit/Temperatura/bin/Debug/net5.0/Temperatura.dll
+  Temperatura.Testes -> /Users/viniciusmaciel/Documents/GitHub/aplicando-testes-work/DotNet5-xUnit/Temperatura.Testes/bin/Debug/net5.0/Temperatura.Testes.dll
+Test run for /Users/viniciusmaciel/Documents/GitHub/aplicando-testes-work/DotNet5-xUnit/Temperatura.Testes/bin/Debug/net5.0/Temperatura.Testes.dll (.NETCoreApp,Version=v5.0)
+Microsoft (R) Test Execution Command Line Tool Version 16.11.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:     6, Skipped:     0, Total:     6, Duration: 18 ms - /Users/viniciusmaciel/Documents/GitHub/aplicando-testes-work/DotNet5-xUnit/Temperatura.Testes/bin/Debug/net5.0/Temperatura.Testes.dll (net5.0)
